@@ -1,0 +1,94 @@
+body {
+    font-family: "poppins";
+}
+
+h1 {
+    color: rgb(17, 0, 255);
+    text-align: center;
+    
+} 
+h2 {
+    color: white;
+    text-align: center;
+    display: inline;
+    position: relative;
+    top: 7px;
+    padding: 3px;
+} 
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    background-color: black;
+}
+#main-div {
+    background-color: green;
+    border: 1px solid black;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+#boxdiv {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+#yourbox {
+    width: 50%;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    color: white;
+    height: 350px;
+    border-right: none;
+    overflow: hidden;
+}
+#dealerbox {
+    border: 1px solid black;
+    width: 50%;
+    flex-wrap: wrap;
+    color: white;
+    height: 350px;
+    overflow: hidden;
+}
+#hit {
+    padding: 0.8rem;
+    border: none;
+    background-color: rgb(27, 27, 255);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 0.4rem;
+}
+#stand {
+    padding: 0.8rem;
+    border: none;
+    background-color: rgb(211, 211, 7);
+    color: white;
+    font-family: sans-serif;
+    border-radius: 0.4rem;
+}
+#deal {
+    padding: 0.8rem;
+    border: none;
+    background-color: #dd0e0e;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 0.4rem;
+}
+#main-button-div {
+    padding-bottom: 1.5rem;
+}
+#bottomrow {
+    padding-bottom: 1.5rem;
+}
+table {
+     
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid black;
+}

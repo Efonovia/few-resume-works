@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="favicon-32x32.png"
+  />
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            place-items: center;
+            background-color: hsl(0, 0%, 98%);
+            height: 645px;
+        }
+        .first-header {
+            font-family: Poppins;
+            font-weight: 400;
+            color: hsl(234, 12%, 34%);
+            padding-top: 1rem;
+        }
+        .second-header {
+            font-family: Poppins;
+            font-weight: 600;
+            color: hsl(234, 12%, 34%);
+            margin-top: -0.7em;
+        }
+        .first-paragraph {
+            font-family: Poppins;
+            font-weight: 200;
+            color: hsl(234, 12%, 34%);
+            margin-top: -0.1em;
+            max-width: 100vw;
+            text-align: center;
+        }
+        header {
+            margin-top: 1.3em;
+            margin-left: 1.2em;
+            font-family: Poppins;
+            font-weight: 600;
+            color: hsl(234, 12%, 34%);
+        }
+        .teambuilder-img {
+            height: 3.5em;
+            width: 3.5em;
+            position: fixed;
+            top: 8em;
+            right: 1.5em;
+        }
+        .karma-img {
+            height: 3.5em;
+            width: 3.5em;
+            position: fixed;
+            bottom: 1.5em;
+            right: 1.5em;
+        }
+        .supervisor-img {
+            height: 3.5em;
+            width: 3.5em;
+            position: fixed;
+            bottom: 1.5em;
+            left: 9.7em;
+        }
+       
+        .calculator-img {
+            height: 3.5em;
+            width: 3.5em;
+            position: fixed;
+            bottom: 1.2em;
+            right: 1.5em;
+        }
+        .box-paragraph {
+            font-size: 0.7rem;
+            margin-left: 1.8em;
+            font-family: Poppins;
+            font-weight: 200;
+            color: hsl(234, 12%, 34%);
+        }
+        .flex-column-container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            transform: translate(0, 20px);
+        }
+        .team-builder {
+            background-color: white;
+            width: 16em;
+            height: 12.5em;
+            border-radius: 0.2em;
+            border-top: 0.2rem solid hsl(0, 78%, 62%);
+            position: relative;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .column-blank {
+            width: 16em;
+            height: 1.3em;
+        }
+        .karma {
+            background-color: white;
+            width: 16em;
+            height: 12.5em;
+            border-radius: 0.2em;
+            border-top: 0.2rem solid hsl(34, 97%, 64%);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .flex-row-container {
+            margin-top: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            width: 48em;
+            height: 12.5em;
+            transform: translate(0, -320px);
+        }
+        .supervisor {
+            background-color: white;
+            width: 16em;
+            height: 12.5em;
+            border-radius: 0.2em;
+            border-top: 0.2rem solid hsl(180, 62%, 55%);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .row-blank {            
+            width: 20em;
+            height: 12.5em;
+        }
+        .calculator {
+            background-color: white;
+            width: 16em;
+            height: 12.5em;
+            border-radius: 0.2em;
+            border-top: 0.2rem solid hsl(212, 86%, 64%);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            
+        }
+        .team-builder-img-div {
+            height: 12.5em;
+            width: 16em;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="first-header">Reliable, efficient delivery</h2>
+    <h2 class="second-header">Powered by technology</h2>
+    <p class="first-paragraph">Our Artificial Intelligence powered tools use millions of project data <br>
+        points to ensure that your project is successful</p>
+    <div class="flex-column-container">
+        <div class="team-builder">
+            <header>Team Builder</header>
+            <p class="box-paragraph">Scans our talent network to create the optimal team for your project</p>
+            <div class="teambuilder-img-div">
+                <img class="teambuilder-img" src="icon-team-builder.svg" alt="a house or something like that">
+            </div>
+        </div>
+        <div class="column-blank"></div>
+        <div class="karma">
+            <header>karma</header>
+            <p class="box-paragraph">Regularly evaluates our talent to ensure quality</p>
+            <img class="karma-img" src="icon-karma.svg" alt="a bright light bulb">
+        </div>
+    </div>
+    <div class="flex-row-container">
+        <div class="supervisor">
+            <header>Supervisor</header>
+            <p class="box-paragraph">Monitors activity to identify project roadblocks</p>
+            <img class="supervisor-img" src="icon-supervisor.svg" alt="a magnifying glass with an aye on it">
+        </div>
+        <div class="row-blank"></div>
+        <div class="calculator">
+            <header>Calculator</header>
+            <p class="box-paragraph">Uses data from past projects to provide better delivery estimates</p>
+            <img class="calculator-img" src="icon-calculator.svg" alt="a monitor">
+        </div>
+    </div>
+    
+</body>
+</html>
